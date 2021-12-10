@@ -1,0 +1,2 @@
+insert IGNORE into users (id, username, password, roles, active) values(1, "user", "user", "ROLE_USER", 1);
+insert IGNORE into users (id, username, password, roles, active) values(3, "admin", "admin", "ROLE_ADMIN", 1);
